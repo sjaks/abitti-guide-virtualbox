@@ -15,7 +15,7 @@ Vagrant
 Powershell-scripti
 ```
 
-Scripti asettaa Windowsin ympäristömuuttujat arvoihin, jotka mahdollistavat koepakettien tuonnin palvelimelle.
+Scripti asettaa Windowsin ympäristömuuttujat arvoihin, jotka mahdollistavat koepakettien tuonnin palvelimelle. Se myös luo tarvittavat kansiot YTL:n ohjeiden mukaisesti ja lataa konfiguraatiotiedostot automaattisesti.
 
 ### Fyysiset laitteet
 
@@ -33,11 +33,8 @@ ____
 ## Konfigurointi
 
 1. Lataa ja asenna [VirtualBox](https://www.virtualbox.org/wiki/Downloads) ja [Vagrant](https://www.vagrantup.com/downloads.html).
-2. Luo hakemistot `ktp` ja `ktp-jako` käyttäjän kotikansioon. `C:\Users\käyttäjätunns\`
-3. Lataa YTL:n luoma [Vagrantfile](http://static.abitti.fi/usbimg/qa/vagrant/Vagrantfile) ja talleta se kansioon `ktp` 
-4. Sijoita lataamasi [scripti](https://github.com/Aanekoskenlukio/virtual-abitti-script-ps/releases/) esimerkiksi työpöydälle.
-5. Klikkaa scriptiä hiiren oikealla painikkeella ja valitse `Run in Powershell` tai vastaava suomeksi.
-6. Lue [Kokemukset](https://github.com/xrtli/abitti-oppaat-wm/blob/master/koetilan%20palvelin.md#kokemuksia).
+2. Sijoita lataamasi [scripti](https://github.com/xrtli/abitti-guide-virtualbox/blob/master/script.ps1) esimerkiksi työpöydälle.
+3. Klikkaa scriptiä hiiren oikealla painikkeella ja valitse `Run in Powershell` tai vastaava suomeksi.
 
 Scriptin tulisi listata hakemiston `ktp-jako` sisältö (hakemisto oletetusti tyhjä) ja jatkaa suorittamalla komento `vagrant up`. Tällöin koetilan palvelimen tulisi latautua ja Virtualbox-ikkunan avautua. 
 
