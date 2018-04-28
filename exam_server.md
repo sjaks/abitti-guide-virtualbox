@@ -11,9 +11,9 @@ Käytettävästä tietokoneesta on löydyttävä vähintään 4 GB keskusmuistia
 ```
 Virtualbox
 Vagrant
-```
 
-On myös suositeltavaa ladata konfigurointia helpottava scripti [täältä](https://github.com/Aanekoskenlukio/virtual-abitti-script-ps/releases/). Klikkaa KTP.ps1-linkkiä uusimman versionumeron kohdalta.
+Powershell-scripti
+```
 
 Scripti asettaa Windowsin ympäristömuuttujat arvoihin, jotka mahdollistavat koepakettien tuonnin palvelimelle.
 
@@ -35,7 +35,7 @@ ____
 1. Lataa ja asenna [VirtualBox](https://www.virtualbox.org/wiki/Downloads) ja [Vagrant](https://www.vagrantup.com/downloads.html).
 2. Luo hakemistot `ktp` ja `ktp-jako` käyttäjän kotikansioon. `C:\Users\käyttäjätunns\`
 3. Lataa YTL:n luoma [Vagrantfile](http://static.abitti.fi/usbimg/qa/vagrant/Vagrantfile) ja talleta se kansioon `ktp` 
-4. Sijoita lataamasi scripti (ks. vaatimukset) esimerkiksi työpöydälle.
+4. Sijoita lataamasi [scripti](https://github.com/Aanekoskenlukio/virtual-abitti-script-ps/releases/) esimerkiksi työpöydälle.
 5. Klikkaa scriptiä hiiren oikealla painikkeella ja valitse `Run in Powershell` tai vastaava suomeksi.
 6. Lue [Kokemukset](https://github.com/xrtli/abitti-oppaat-wm/blob/master/koetilan%20palvelin.md#kokemuksia).
 
