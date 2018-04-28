@@ -139,4 +139,4 @@ Virtuaalista palvelinta testattaessa käytännössä on huomattu seuraavaa:
 4. Älä anna koneen mennä lepotilaan tai edes lukittautua kokeen aikana: [säädä virransäästöasetukset kohdalleen](https://github.com/xrtli/abitti-oppaat-wm/blob/master/koetilan%20palvelin.md#s%C3%A4%C3%A4d%C3%A4-windowsin-virta-asetukset).
 
 
-![](https://raw.githubusercontent.com/xrtli/abitti-oppaat-wm/master/screenshot.png)
+![](https://raw.githubusercontent.com/xrtli/abitti-guide-virtualbox/master/screenshot.png)
