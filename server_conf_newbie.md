@@ -26,12 +26,16 @@ Scriptin ajamisen jälkeen tietokoneen ruudulle tulis ilmestyä ikkuna, jossa n�
 9. Valitse listalta `Promiscuous Mode` valinta `Allow All`
 10. Valitse `Ok`
 
+*Jos kyseinen vaihtoehto puuttuu, valitse se vaihtoehto, jossa lukee joko `ethernet` tai `wired`.
+
 Verkko on nyt onnistuneesti konfiguroitu. Jatkossa Abitti käyttää tietokoneen ethernet-porttia verkkoyhteyden jakamiseen.
 
 ## Palvelimen käynnistys
 1. Avaa Virtualbox esimerkiksi kirjoittamalla `Virtualbox` Käynnistä-valikkoon
 2. Klikkaa vaihtoehtoa `Virtual KTP v#` hiiren oikealla painikkeella
 3. Valitse `Start`
+4. Voit kytkeä tietokoneen verkkoporttiin reitittimen.
+5. Palvelimen käynnistys jatkuu aikan kuten fyysisen palvelimen käynnistys.
 
 ## Palvelimen päivittäminen
 Aja scripti uudelleen konfigurointi-ohjeiden mukaisesti.
