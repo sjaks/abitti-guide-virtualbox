@@ -1,5 +1,5 @@
 # Yksinkertainen virtuaalipalvelimen asennusopas
-[exam_server](https://github.com/xrtli/abitti-guide-virtualbox/blob/master/exam_server.md)-oppaassa on yksityiskohtaisempia ohjeita ja vinkkejä palvelimen konfigurointiin. Tätä yksinkertaistettua opasta seuraamalla opettaja voi itse konfiguroida palvelimen.
+[exam_server](https://github.com/xrtli/abitti-guide-virtualbox/blob/master/exam_server.md)-oppaassa on yksityiskohtaisempia ohjeita ja vinkkejä palvelimen konfigurointiin. Tätä yksinkertaistettua opasta seuraamalla opettaja voi itse konfiguroida palvelimen. *exam_server.md deprecated*
 
 ## Ensiaskeleet
 1. Lataa vaaditut sovellukset: [Vagrant](https://releases.hashicorp.com/vagrant/2.0.4/vagrant_2.0.4_x86_64.msi) ja [Virtualbox](https://download.virtualbox.org/virtualbox/5.2.10/VirtualBox-5.2.10-122406-Win.exe)

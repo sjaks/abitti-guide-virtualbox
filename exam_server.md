@@ -1,3 +1,7 @@
+```
+Tätä opasta ei enää päivitetä! Deprecated!
+```
+
 # Koetilan palvelimen virtualisointi
 
 Abitti-palvelimen voi pystyttää sekä varsinaista käyttöä että testikäyttöä varten käyttämällä [Virtualboxia](https://www.virtualbox.org/).
