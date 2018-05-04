@@ -1,0 +1,17 @@
+{
+  "name": "digabi/ktp-qa",
+  "description": "KTP Vagrant",
+  "versions": [
+    {
+      "version": "42",
+      "providers": [
+        {
+          "name": "virtualbox",
+          "url": "https://www.xrt.li/mirror/abitti/palvelin.box",
+          "checksum_type": "sha1",
+          "checksum": "e55567c977c219f119096c95ea4a2e340ddf009d"
+        }
+      ]
+    }
+  ]
+}
