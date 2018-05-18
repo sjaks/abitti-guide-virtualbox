@@ -4,7 +4,7 @@
 ## Ensiaskeleet
 1. Lataa vaaditut sovellukset: [Vagrant](https://www.vagrantup.com/downloads.html) ja [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
 2. Asenna ladatut sovellukset
-3. Lataa käyttöä helpottava [scripti](https://github.com/xrtli/abitti-guide-virtualbox/releases/download/0.2.0/virtual_abitti.ps1)
+3. Lataa käyttöä helpottava [scripti](https://github.com/Aanekoskenlukio/abitti-guide-virtualbox/releases/download/0.3.0/virtual_abitti.ps1)
 4. Talleta tai siirrä scripti haluamaasi hakemistoon
 
 ## Konfigurointi
