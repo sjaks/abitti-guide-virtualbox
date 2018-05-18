@@ -23,7 +23,9 @@ if(!(Test-Path -Path $FULLPATH )){
   $VAGRANTPATH = $FULLPATH + "/Vagrantfile"
   
   # Download Vagrant file
-  Invoke-WebRequest -Uri "https://www.xrt.li/mirror/abitti/Vagrantfile" -OutFile $VAGRANTPATH
+  #Invoke-WebRequest -Uri "https://www.xrt.li/mirror/abitti/Vagrantfile" -OutFile $VAGRANTPATH
+  Invoke-WebRequest -Uri "http://static.abitti.fi/usbimg/qa/vagrant/Vagrantfile" -OutFile $VAGRANTPATH
+  
 }
 
 # Change to ktp
